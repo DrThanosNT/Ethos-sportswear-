@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="el" >
+  
+<head >
+    <meta charset="utf-8">
+
+<style>
+  
+
+
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+  
+  * {box-sizing: border-box;}
+.row::after {
+  content: "";
+  clear: both;
+  display: flex;
+} 
+.column {
+  float: left;
+  width: 50%;
+  padding: 2.5%; }
+
+  h1 {
+        border : 2px solid white;
+       font-family:   sans-serif;
+       text-align: center;
+  }
+  h2{
+    border : 2px solid white;
+    text-align: center;
+    font-size: 1.5vw;
+  }
+
+
+p {
+  text-align: center;
+  font-size: 1.5em;
+  background-color:green;
+  border : 2px solid white;
+  
+}
+h3 {
+  text-align: center;
+  font-size:2.5em;
+  text-decoration-color: green;
+}
+img{
+  border : 4px groove white;
+}
+
+</style>
+<title>Introduction Page</title>
+<link rel="icon" type="image/x-icon" href="images/2412384.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body style="background-color:black;" >
+
+<h1   style="background-color: green; padding:9px;" >Αbout Me</h1>
+
+<h2  style="background-color:green;  padding:6px;"> Γεία σας, είμαι ο Θάνος Ντελέκος. Είμαι φοιτητής στο Πανεπιστήμιο Πειραιώς και συγκεκριμένα στο τμήμα Πληροφορικής. <br>Στο μέλον θα ήθελα να ασχοληθώ με τη τεχνιτή νοημοσύνη.    </h2>
+
+<div class="row">
+  <div class="column">
+    <img src="images/plaza.jpg" alt="Spain flag" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/spaintop.jpg" alt="Spain" style="width:100%">
+  </div>
+  </div>
+   
+
+
+ 
+ <hr>
+
+ <h3   ><a href="Page_2.html"><b>Ανακαλύψετε Περισσότερα</b></a> </h3>
+ <hr>
+</body>
+</html>

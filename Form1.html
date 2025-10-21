@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Φόρμα Εγγραφής</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.PNG">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Φόρμα Εγγραφής</h1>
+        
+        <form action="#" method="post">
+            <hr>
+            <h1>Προσωπικά Στοιχεία</h1>
+            <hr>
+            <div class="container">
+              
+                <h3 style="font-weight: lighter; ">Επιλεξτε το φυλλο σας</h3>
+                <input type="radio" id="mr" name="title" value="Κύριος" checked>
+                <label for="mr">Κύριος</label>
+                <input type="radio" id="mrs" name="title" value="Κυρία">
+                <label for="mrs">Κυρία</label><br>
+                
+                <label for="name">Όνομα:</label>
+                <input type="text" id="name" name="name" placeholder="Π.χ. Αθανάσιος" required>
+                
+                <label for="surname">Επώνυμο:</label>
+                <input type="text" id="surname" name="surname" placeholder="Π.χ. Ντελέκος" required>
+                
+                <label for="dob">Ημερομηνία Γέννησης:</label>
+                <input type="date" id="dob" name="dob" min="1980-01-01" max="2022-12-31" required>
+                
+                <label for="country">Χώρα Κατοικίας:</label>
+                <select id="country" name="country">
+
+
+                    <option value="Ελλάδα" selected>Ελλάδα</option>
+                    <option value="Τουρκία">Τουρκία</option>
+                    <option value="Ιταλία">Ιταλία</option>
+                    <option value="Αλβανία">Αλβανία</option>
+                    <option value="Βουλγαρία">Βουλγαρία</option>
+
+
+                </select><br>
+
+                <label for="marital-status">Οικογενειακή Κατάσταση:</label>
+
+                <select id="marital-status" name="marital-status">
+                    <option value="Έγγαμος">Έγγαμος</option>
+                    <option value="Άγαμος">Άγαμος</option>
+                </select><br>
+            </div>
+
+            <h1>Στοιχεία Επικοινωνίας</h1>
+            <div class="container">
+               
+                <label for="address">Διεύθυνση:</label>
+                <input type="text" id="address" name="address" placeholder="Π.χ. Οδός Σταδίου 1" required><br>
+
+                <label for="city">Πόλη:</label>
+                <input type="text" id="city" name="city" placeholder="Π.χ. Αθήνα" maxlength="10"><br>
+
+                <label for="region">Περιοχή/Περιφέρεια:</label>
+                <input type="text" id="region" name="region" placeholder="Π.χ. Αττική" maxlength="15"><br>
+
+                <label for="postal-code">Ταχυδρομικός Κώδικας:</label>
+                <input type="text" id="postal-code" name="postal-code" placeholder="Π.χ. 10552" required><br>
+
+                <label for="phone">Τηλέφωνο:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Π.χ. 2101234567"><br>
+
+                <label for="email">Διεύθυνση Ηλεκτρονικού Ταχυδρομείου:</label>
+                <input type="email" id="email" name="email" placeholder="Π.χ. example@email.com" required><br>
+            </div>
+
+            <h1>Δημιουργία Κωδικού Πρόσβασης</h1>
+
+            <div class="container">
+                
+                <label for="password">Συνθηματικό Πρόσβασης:</label>
+
+                <input type="password" id="password" name="password" required><br>
+
+                <label for="confirm-password">Επιβεβαίωση Κωδικού Πρόσβασης:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required><br>
+            </div>
+
+            <div class="container">
+                <label>
+                    <input type="checkbox" name="terms" required> Έχω διαβάσει και αποδέχομαι τους Όρους & Προϋποθέσεις.
+                </label><br>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit">Αποστολή</button>
+                <button type="reset">Ακύρωση</button>
+            </div>
+
+        </form>
+    </div>
+                   </body>
+
+
+    </html>

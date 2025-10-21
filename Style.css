@@ -1,0 +1,112 @@
+* {
+    
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;}
+    hr{
+        margin-bottom: 15px;
+        color:black;
+       
+    }
+
+
+.form-container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #edebeb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+}
+
+    h1 {
+    text-align: center;
+      margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.container {
+    border: 1px solid #b7b4b4;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+
+
+    label {
+    display: block;
+    margin: 5px 0;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="date"], select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input:focus {
+    border-color: #28a745;
+    outline: none;
+
+}
+
+input::placeholder {
+    color: #888;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #28a745;
+}
+
+button {
+
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button[type="reset"] {
+    background-color: #dc3545;
+}
+
+button:hover {
+    background-color: #199c36;
+}
+
+button[type="reset"]:hover {
+    background-color: red;
+}
+
+label:hover::after {
+
+    content: attr(title);
+    background-color: #555;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+@media (max-width: 500px) {
+    .form-container {
+        background-color: #f8f9fa;
+    }
+}

@@ -1,0 +1,767 @@
+
+<!DOCTYPE html>
+<html lang="el" >
+  
+<head >
+
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+  
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+.topnav {
+  background-color:aliceblue ;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.topnav a {
+  float :left;
+  color: black;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.columns {
+  float:left;
+  width: 33.3%;
+  padding: 8px;
+  
+
+}
+
+
+.price {
+  
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  
+
+}
+
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 black;
+}
+
+
+.price .header {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+}
+
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+
+.button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+     .banner {
+       background-color:aquamarine;
+       text-align: center;
+       font-size: 2vw;
+       font-family:   'Arial Narrow Bold', sans-serif;
+       padding: 10px;
+       
+
+     }
+     h2{
+      font-size: 2vw;
+      background-color: aliceblue;
+      width: 100%;
+      padding: 9px;
+     }
+      .Image{
+        height:80%;
+        max-width: fit-content;
+        
+      }
+     
+      
+
+
+
+
+    </style>
+    <title > Ethos Sport</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+    </head>
+
+
+
+
+    <body>
+
+        
+        <div class="topnav">
+            <a class="active" href="#home" style="border: solid 1px black;" >Home</a>
+            <a href="#Leggings" style="border: solid 1px black;">Leggings</a>
+            <a href="#Shirts" style="border: solid 1px black;">Shirts</a>
+            <a href="#Shoes" style="border: solid 1px black;">Shoes</a>
+            <a href="#Accessories" style="border: solid 1px black;">Gym Accessories</a>
+            <a href="Company2.html" style="border: solid 1px black;">Contact</a>
+            <a href="Form1.html" style="border: solid 1px black;">Sign up</a>
+            <a href="http://localhost/FINAL%20HTML/HTML%205.php" style="border: solid 1px black;">Competition</a>
+            <a href="http://localhost/FINAL%20HTML/save_order.php" style="border: solid 1px black;">Order</a>
+            <a href="http://localhost/FINAL%20HTML/Weather.php" style="border: solid 1px black;">Weather</a>
+            <a href="Page_1.html" style="border: solid 1px black;">About Me</a>
+          </div>
+          <br>
+          <br>
+          <br>
+        
+          
+           <div class="banner">
+               <h2 id="home"><u> Most Popular</u></h2>
+               <img src="images/ethoslogo2.png" alt="placeholder text" style="height:50%; width:80%;">
+           </div>
+           <br>
+           <br>
+           <img src="banner5.png" alt="placeholder text" usemap="#moreinfo" style="width: 100%;">
+
+           <map name="moreinfo">
+              <area shape="rect" coords="230,450,550,550" alt="Placeholder text" href="script.html"> <!-- ΤΟ ΠΑΙΧΝΙΔΙ ΓΙΑ ΤΗΝ ΕΚΠΤΩΣΗ-->
+              
+           </map>
+           
+           <video style="width:100%; height:auto;"  controls>
+            <source src="images/Athlete.mp4" type="video/mp4">
+           
+          </video>
+          
+           <br>
+           <br>
+           
+           <img src="banner.png" alt="placeholder text" style= "width:100%;" id="Leggings">
+           <h2>Leggings</h2>
+
+
+
+
+           <div class="col-container">
+         <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/l1.png" alt="ethoslogo">   </li>
+              <li class="header">Esmeralda leggings</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>19.99</del> Old</td>
+                     <td style="background-color:  lawngreen;">$9.99 Sale</td>
+
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>In Stock</td>
+                  </tr>
+                </table> </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/l2.png" alt="ethoslogo">   </li>
+              <li class="header">Pink Bikers</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>39.99</del> Old</td>
+                     <td style="background-color: lawngreen;">$25.99 Sale</td>
+
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>In Stock</td>
+                  </tr>
+                </table> </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/l3.png" alt="ethoslogo">   </li>
+              <li class="header">Brown sport leggings</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>24.99</del> Old</td>
+                     <td style="background-color:  lawngreen;">$19.99 Sale</td>
+
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>Out of Stock</td>
+                  </tr>
+                </table> </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+          </div>
+
+          <div class="col-container">
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/l4.png" alt="ethoslogo">   </li>
+              <li class="header">Aqua leggings</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>17.99</del> Old</td>
+                     <td style="background-color:  lawngreen;">$12.99 Sale</td>
+
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>In Stock</td>
+                  </tr>
+                </table> </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/l5.png" alt="ethoslogo">   </li>
+              <li class="header">Lara leggings</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>32.99</del> Old</td>
+                     <td style="background-color:  lawngreen;">$21.99 Sale</td>
+
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>In Stock</td>
+                  </tr>
+                </table>
+              </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/l6.png" alt="ethoslogo">   </li>
+              <li class="header">Black sport leggings</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>31.99</del> Old</td>
+                     <td style="background-color: lawngreen;">$24.99 Sale</td>
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>Out of Stock</td>
+                  </tr>
+                </table>
+    
+              </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+          </div>
+          <br>
+          <br>
+          
+
+
+          <img src="banner2.jpg" alt="placeholder text" style= "width:100%;" id="Shirts">
+          <h2>Tops</h2>
+          <br>
+          <div class="col-container">
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/t1.png" alt="ethoslogo">   </li>
+              <li class="header">Long Sleeve Crop Top \ Pebble</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>17.99</del> Old</td>
+                     <td style="background-color:  lawngreen;">$10.99 Sale</td>
+
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>In Stock</td>
+                  </tr>
+                </table> </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/t2.png" alt="ethoslogo">   </li>
+              <li class="header">Long Sleeve Crop Top \ Pink</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>32.99</del> Old</td>
+                     <td style="background-color: lawngreen;">$25.99 Sale</td>
+
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>In Stock</td>
+                  </tr>
+                </table> </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/t3.png" alt="ethoslogo">   </li>
+              <li class="header">Long Sleeve Crop Top \ Grey</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>29.99</del> Old</td>
+                     <td style="background-color:  lawngreen;">$21.99 Sale</td>
+
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>Out of Stock</td>
+                  </tr>
+                </table> </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+          </div>
+
+          <div class="col-container">
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/t4.png" alt="ethoslogo">   </li>
+              <li class="header">Long Sleeve Crop Top \ Light Pink</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>19.99</del> Old</td>
+                     <td style="background-color:  lawngreen;">$12.99 Sale</td>
+
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>In Stock</td>
+                  </tr>
+                </table> </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/t5.png" alt="ethoslogo">   </li>
+              <li class="header">Long Sleeve Crop Top \ Aqua</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>22.99</del> Old</td>
+                     <td style="background-color:  lawngreen;">$11.99 Sale</td>
+
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>In Stock</td>
+                  </tr>
+                </table>
+              </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/t6.png" alt="ethoslogo">   </li>
+              <li class="header">Long Sleeve Crop Top \ Purple</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>36.99</del> Old</td>
+                     <td style="background-color: lawngreen;">$24.99 Sale</td>
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>Out of Stock</td>
+                  </tr>
+                </table>
+    
+              </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+          </div>
+
+          <br>
+          <br>
+          <img src="banner3.jpg" alt="placeholder text" style= "width:100%;" id="Shoes">
+          <h2>Sneakers</h2>
+
+
+          <br>
+          <div class="col-container">
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/s1.png" alt="ethoslogo">   </li>
+              <li class="header">Long Sleeve Crop Top \ Pebble</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>97.99</del> Old</td>
+                     <td style="background-color:  lawngreen;">$60.99 Sale</td>
+
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>In Stock</td>
+                  </tr>
+                </table> </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/s2.png" alt="ethoslogo">   </li>
+              <li class="header">Pink Sneakers</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>122.99</del> Old</td>
+                     <td style="background-color: lawngreen;">$75.99 Sale</td>
+
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>In Stock</td>
+                  </tr>
+                </table> </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/s3.png" alt="ethoslogo">   </li>
+              <li class="header">Black Hiking Shoes</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>119.99</del> Old</td>
+                     <td style="background-color:  lawngreen;">$91.99 Sale</td>
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>In Stock</td>
+                  </tr>
+                </table> </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+        </div>
+
+          <div class="col-container">
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/s4.png" alt="ethoslogo">   </li>
+              <li class="header">Pink Hiking Shoes</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>109.99</del> Old</td>
+                     <td style="background-color:  lawngreen;">$82.99 Sale</td>
+
+                  </tr>
+                
+                <tr >
+                  <td>Availability: </td>
+                  <td>In Stock</td>
+                </tr>
+                </table> </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/s5.png" alt="ethoslogo">   </li>
+              <li class="header">Purple Sneakers</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>72.99</del> Old</td>
+                     <td style="background-color:  lawngreen;">$61.99 Sale</td>
+
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>Out of Stock</td>
+                  </tr>
+                </table>
+              </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/s6.png" alt="ethoslogo">   </li>
+              <li class="header">Grey Hiking Shoes</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>56.99</del> Old</td>
+                     <td style="background-color: lawngreen;">$44.99 Sale</td>
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>In Stock</td>
+                  </tr>
+                </table>
+    
+              </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+        </div>
+          <br>
+          <br>
+          <img src="banner4.jpg" alt="placeholder text" style= "width:100%;" id="Accessories">
+          
+          <h2>Gym Accessories</h2>
+
+
+
+          <br>
+          <div class="col-container">
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/g1.png" alt="ethoslogo">   </li>
+              <li class="header">Red Band</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>27.99</del> Old</td>
+                     <td style="background-color:  lawngreen;">$10.99 Sale</td>
+
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>In Stock</td>
+                  </tr>
+                </table> </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/g2.png" alt="ethoslogo">   </li>
+              <li class="header">Gripper</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>12.99</del> Old</td>
+                     <td style="background-color: lawngreen;">$5.99 Sale</td>
+
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>In Stock</td>
+                  </tr>
+                </table> </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/g3.png" alt="ethoslogo">   </li>
+              <li class="header">Purple Mat</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>29.99</del> Old</td>
+                     <td style="background-color:  lawngreen;">$11.99 Sale</td>
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>In Stock</td>
+                  </tr>
+                </table> </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-container">
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/g4.png" alt="ethoslogo">   </li>
+              <li class="header">Grey Gloves</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>29.99</del> Old</td>
+                     <td style="background-color:  lawngreen;">$12.99 Sale</td>
+
+                  </tr>
+                
+                <tr >
+                  <td>Availability: </td>
+                  <td>In Stock</td>
+                </tr>
+                </table> </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/g5.png" alt="ethoslogo">   </li>
+              <li class="header">Rope</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>22.99</del> Old</td>
+                     <td style="background-color:  lawngreen;">$11.99 Sale</td>
+
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>Out of Stock</td>
+                  </tr>
+                </table>
+              </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+
+          <div class="columns">
+            <ul class="price">
+              <li class="Image"> <img src="images/g6.png" alt="ethoslogo">   </li>
+              <li class="header">Stop Watch</li>
+              <li class="grey">
+                <table>
+                  <tr>
+                     <td style="background-color: red;">$ <del>16.99</del> Old</td>
+                     <td style="background-color: lawngreen;">$4.99 Sale</td>
+                  </tr>
+                  <tr >
+                    <td>Availability: </td>
+                    <td>In Stock</td>
+                  </tr>
+                </table>
+    
+              </li>
+              <li class="grey"><a href="https://www.paypal.com/gr/home" class="button">Buy Now</a></li>
+            </ul>
+          </div>
+        </div>
+      
+         
+        
+        
+
+       
+  
+
+
+        
+
+
+
+          
+
+          
+     
+
+
+
+
+          
+          
+          
+
+
+      
+
+
+
+
+    </body>    
+    </html>
